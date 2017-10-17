@@ -11,6 +11,7 @@ body {
 	flex-direction: column;
 	color: white;
 
+
 	background: rgb(0, 16, 40);
 	background: -webkit-radial-gradient(rgb(0, 43, 65), rgb(0, 16, 40));
 	background: -moz-radial-gradient(rgb(0, 43, 65), rgb(0, 16, 40));
@@ -199,13 +200,57 @@ hr.hrAbout {
 
 
 
+/* ############# FEATURED WORK ############## */
+
+
+h2 {
+	font-size: 32px;
+	font-weight: 200;
+	color: white;
+	letter-spacing: 8px;
+	padding: 10px 40px;
+	background-color: white;
+	color: rgb(0, 16, 40);
+	/*opacity: 0.9;*/
+	width: 460px;
+	position: relative;
+	left: 80px;
+	top: 4px;
+}
+
+.featuredTitle {
+	width: 702px;
+	height: 162px;
+	margin: 0 auto;
+	margin-top: 70px;
+	padding-top: 40px;
+	background-image: url("https://www.transparenttextures.com/patterns/grid-me.png");*/
+	/*opacity: 0.5;*/
+	/*background-blend-mode: overlay;*/
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 /* ############# FOOTER ######### */
 
 
 footer {
-	height: 100px;
-	background-color: #363636;
-	color: white;
+	height: 160px;
+}
+
+.hrFooter {
+	border: none;
+	border-top: 2px dashed white;
 }

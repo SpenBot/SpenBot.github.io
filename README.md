@@ -29,5 +29,12 @@ like a little heart rate monitor or something?
 
 I should probably draw my own mail and smartphone icons...
 
+how do I make the grid everywhere but the text?
+
+also, how to add the measuring lines? because those are cool. Also, where do I put them?
+
+I kinda like the idea of like old medical records as well.
+
+I don't love the grid
 
  -->
