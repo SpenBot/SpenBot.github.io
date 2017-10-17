@@ -27,5 +27,7 @@ outline-offset: 10px;
 
 like a little heart rate monitor or something?
 
+I should probably draw my own mail and smartphone icons...
+
 
  -->
