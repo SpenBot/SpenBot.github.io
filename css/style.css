@@ -1,4 +1,7 @@
 
+
+/* ############# BODY ######################## */
+
 body {
 	text-align: center;
 	margin: 0 auto;
@@ -6,12 +9,18 @@ body {
 	display: flex;
 	justify-content: space-between;
 	flex-direction: column;
+	color: white;
 
 	background: rgb(0, 16, 40);
 	background: -webkit-radial-gradient(rgb(0, 43, 65), rgb(0, 16, 40));
 	background: -moz-radial-gradient(rgb(0, 43, 65), rgb(0, 16, 40));
 	background: radial-gradient(rgb(0, 43, 65), rgb(0, 16, 40));
 }
+
+
+
+
+/* ############# HEADER ######################## */
 
 header {
 	margin-top: 25px;
@@ -26,16 +35,24 @@ h1 {
 }
 
 h4 {
-	font-size: 25px;
+	font-size: 20px;
 	color: white;
 	letter-spacing: 10px;
-	margin-top: 15px;
+	margin-top: 5px;
+	margin-bottom: 45px;
 }
 
 header hr {
 	margin-top: -20px;
 	width: 240px;
 }
+
+
+
+
+
+/* ############# NAV BAR ######################## */
+
 
 nav {
 	display: flex;
@@ -44,7 +61,7 @@ nav {
 	justify-content: center;
 }
 
-a {
+nav a {
 	color: white;
 	font-size: 18px;
 	letter-spacing: 2px;
@@ -55,46 +72,131 @@ a {
 	width: 220px;
 }
 
-a:hover {
+nav a:hover {
 	background-color: white;
 	color: rgb(0, 16, 40);
 }
 
-a:active {
+nav a:active {
   text-decoration: underline;
 }
 
+
+
+
+
+/* ############# MAIN ######################## */
+
+
 main {
 	margin: 0 auto;
-	width: 500px;
-	padding: 50px;
-
+	/*width: 1000px;*/
+	margin-top: 70px;
+	margin-bottom: 100px;
+	/*background-color: red;*/
 }
+
+
+
+
+
+/* ############# ABOUT BLOCK TOP ############## */
+
+.aboutBlock {
+	display: flex;
+	flex-direction: column;
+	border: 1px solid white;
+	padding: 10px;
+	width: 800px;
+	height: 420px;
+	margin: 0 auto;
+}
+
+.aboutTop {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+.portrait {
+	display: flex;
+	flex-direction: column;
+	text-align: left;
+}
+
+.portrait p {
+	font-size: 8px;
+	line-height: 2px;
+	margin-bottom: -2px;
+}
+
+img {
+	height: 140px;
+	width: 140px;
+	border: 10px solid white;
+}
+
+.aboutPara {
+	font-size: 26px;
+	text-align: left;
+	padding-left: 20px;
+	text-indent: 50px;
+	margin: 0 20px;
+	width: 600px;
+	position: relative;
+	top: -10px;
+	letter-spacing: 1px;
+	/*background-color: yellow;*/
+}
+
+#gaLink {
+	font-size: 20px;
+	height: 45px;
+	width: 150px;
+	padding-top: 25px;
+	border: 3px solid #E55757;
+	margin-bottom: 10px;
+}
+
+#gaLink:hover {
+	background-color: #E55757;
+	cursor: pointer;
+}
+
+#liLink {
+	font-size: 20px;
+	height: 45px;
+	width: 150px;
+	padding-top: 25px;
+	border: 3px solid #8CF2AC;
+}
+
+#liLink:hover {
+	background-color: #8CF2AC;
+	cursor: pointer;
+}
+
+
+/* ############# ABOUT BLOCK BOTTOM ############## */
+
+hr.hrAbout {
+	border: none;
+	border-top: 2px dashed white;
+	/*border-style: dashed;*/
+}
+
+
+
+
+
+
+
+
+/* ############# FOOTER ######### */
+
 
 footer {
 	height: 100px;
 	background-color: #363636;
 	color: white;
-}
-
-
-
-
-
-
-
-p {
-	color: white;
-/*	text-shadow: 2px 2px 1px black;*/
-	font-size: 18px;
-	background-color: rgba(76, 76, 76, .7);
-	padding: 50px;
-	border: 5px solid white;
-	line-height: 30px;
-}
-
-img {
-	height: 200px;
-	width: 200px;
-	border-radius: 100px;
 }

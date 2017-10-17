@@ -21,5 +21,11 @@ https://fonts.google.com/specimen/Arvo
 
 https://fonts.google.com/specimen/Rokkitt?selection.family=Rokkitt:300
 
+outline-style: dotted;
+outline-color: red;
+outline-offset: 10px;
+
+like a little heart rate monitor or something?
+
 
  -->
