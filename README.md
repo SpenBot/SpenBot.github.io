@@ -37,4 +37,22 @@ I kinda like the idea of like old medical records as well.
 
 I don't love the grid
 
+I like the diamond logo, or cynlinder tower, or bridge, or sonar
+
+The featured title might be a little too high
+
+
+
+http://www.html5canvastutorials.com/advanced/html5-canvas-animated-bubbles/
+
+
+https://www.google.com/search?q=bubbles+html+canvas&tbm=isch&source=lnms&sa=X&ved=0ahUKEwic1NLY4vbWAhVLRSYKHSVVBb8Q_AUIwAIoAQ&biw=1100&bih=650#imgrc=_
+
+
+https://www.youtube.com/watch?v=lmtNuCuriBg
+
+
+
+
+
  -->
