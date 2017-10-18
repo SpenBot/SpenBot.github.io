@@ -142,11 +142,11 @@ img {
 	font-size: 26px;
 	text-align: left;
 	padding-left: 20px;
-	text-indent: 50px;
+	text-indent: 25px;
 	margin: 0 20px;
 	width: 600px;
 	position: relative;
-	top: -10px;
+	top: -20px;
 	letter-spacing: 1px;
 	/*background-color: yellow;*/
 }
@@ -219,20 +219,22 @@ h2 {
 	font-weight: 200;
 	color: white;
 	letter-spacing: 8px;
-	padding: 10px 40px;
+	padding: 8px 46px;
+	/*padding: 10px 40px;*/
 	background-color: white;
 	color: rgb(0, 16, 40);
 	width: 460px;
 	position: relative;
 	/*left: 80px;*/
-	left: 106px;
-	top: 24px;
+	/*top: 48px;*/
+	left: 100px;
+	top: 50px;
 }
 
 .featuredHeading {
 	width: 751px;
 	/*width: 702px;*/
-	height: 102px;
+	height: 152px;
 	margin: 0 auto;
 	margin-top: 110px;
 	margin-bottom: 60px;
@@ -348,7 +350,7 @@ h2 {
 }
 
 h3 {
-	font-size: 36px;
+	font-size: 38px;
 	margin-top: -1px;
 	margin-bottom: -1px;
 	text-align: left;
@@ -361,10 +363,10 @@ hr.hrFeatured {
 }
 
 h6 {
-	font-size: 22px;
+	font-size: 24px;
 	text-align: left;
 	margin-top: -1px;
-	margin-bottom: 20px;
+	margin-bottom: 25px;
 	/*background-color: yellow;*/
 }
 
@@ -382,6 +384,7 @@ h6 {
 	height: 310px;
 	margin-top: -22px;
 	text-align: left;
+	text-indent: 10px
 	/*background-color: green;*/
 }
 
@@ -390,17 +393,17 @@ h6 {
 	width: 310px;
 }
 
-.feateredLeft h5 {
-	font-size: 20px;
+/*.feateredLeft h5 {
+	font-size: 16px;
 	margin-top: 10px;
 	margin-bottom: 15px;
 	text-align: left;
-	/*border: 1px solid white;
-	width: 130px;*/
-}
+	font-weight: normal;
+}*/
 
 .feateredLeft p {
-	margin-top: -10px;
+	/*margin-top: -10px;*/
+	margin-top: 15px;
 	text-align: left;
 }
 

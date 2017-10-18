@@ -8,12 +8,14 @@ personal portfolio
 
 
 
+
 >>>> Fix Actual Links
 >>>> Full Portfolio? More Work? Other Work?
 >>>> Add in New House
 >>>> Add in Portfolio?
 >>>> Footer
 >>>> Project 3 Styling (Deploy?)
+>>>> Expand View / buttons to change picture / pictures dynamically change
 
 
 >> Measuring Lines?
