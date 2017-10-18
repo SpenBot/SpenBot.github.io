@@ -3,6 +3,36 @@ personal portfolio
 
 
 
+
+
+
+
+
+>>>> Fix Actual Links
+>>>> Full Portfolio? More Work? Other Work?
+>>>> Add in New House
+>>>> Add in Portfolio?
+>>>> Footer
+>>>> Project 3 Styling (Deploy?)
+
+
+>> Measuring Lines?
+>> Icons for Mail and Phone?
+
+> Heart Rate Monitor Thing?
+> Traffic Lights?
+> Grid Everywhere but text?
+> Logo? Diamond, Tower Cylinder, Bridge, Sonar?
+
+
+
+
+
+
+
+
+
+
 <!--
 font-family: "prestige-elite-std";
 
@@ -39,9 +69,8 @@ I don't love the grid
 
 I like the diamond logo, or cynlinder tower, or bridge, or sonar
 
-The featured title might be a little too high
 
-> FIX BUTTONS
+
 
 
 http://www.html5canvastutorials.com/advanced/html5-canvas-animated-bubbles/
@@ -111,16 +140,3 @@ h2 {
 <div id="gaLink"><a>GA-PROFILE</a></div>
 <div id="liLink"><a>LINKED-IN</a></div>
 -->
-
-
-
-
-
-
-
-
-
-
-
-
- -->

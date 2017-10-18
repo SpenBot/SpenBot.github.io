@@ -36,7 +36,7 @@ h1 {
 }
 
 h4 {
-	font-size: 20px;
+	font-size: 22px;
 	color: white;
 	letter-spacing: 10px;
 	margin-top: 5px;
@@ -44,7 +44,7 @@ h4 {
 }
 
 header hr {
-	margin-top: -20px;
+	margin-top: -15px;
 	width: 240px;
 }
 
@@ -224,12 +224,14 @@ h2 {
 	color: rgb(0, 16, 40);
 	width: 460px;
 	position: relative;
-	left: 80px;
+	/*left: 80px;*/
+	left: 106px;
 	top: 24px;
 }
 
 .featuredHeading {
-	width: 702px;
+	width: 751px;
+	/*width: 702px;*/
 	height: 102px;
 	margin: 0 auto;
 	margin-top: 110px;
@@ -362,7 +364,7 @@ h6 {
 	font-size: 22px;
 	text-align: left;
 	margin-top: -1px;
-	margin-bottom: 15px;
+	margin-bottom: 20px;
 	/*background-color: yellow;*/
 }
 
@@ -388,9 +390,10 @@ h6 {
 	width: 310px;
 }
 
-.feateredLeft h6 {
+.feateredLeft h5 {
 	font-size: 20px;
 	margin-top: 10px;
+	margin-bottom: 15px;
 	text-align: left;
 	/*border: 1px solid white;
 	width: 130px;*/
@@ -416,6 +419,7 @@ footer {
 	border-top: 2px dashed white;
 }
 
-h5 {
-	font-size: 26px;
+footer h4 {
+	margin-top: 20px;
+	letter-spacing: 5px;
 }
