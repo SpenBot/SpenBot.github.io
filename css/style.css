@@ -108,7 +108,7 @@ main {
 	display: flex;
 	flex-direction: column;
 	border: 1px solid white;
-	padding: 10px;
+	padding: 20px;
 	width: 800px;
 	height: 400px;
 	margin: 0 auto;
@@ -151,29 +151,42 @@ img {
 	/*background-color: yellow;*/
 }
 
-#gaLink {
+.aboutLinks {
+	display: flex;
+	flex-direction: column;
+	width: 160px;
+	height: 300px;
+	/*background-color: blue;*/
+}
+
+.gaLink {
 	font-size: 20px;
 	height: 45px;
 	width: 150px;
 	padding-top: 25px;
 	border: 3px solid #E55757;
 	margin-bottom: 10px;
+	color: white;
+	text-decoration: none;
 }
 
-#gaLink:hover {
+.gaLink:hover {
 	background-color: #E55757;
 	cursor: pointer;
 }
 
-#liLink {
+.liLink {
 	font-size: 20px;
 	height: 45px;
 	width: 150px;
 	padding-top: 25px;
 	border: 3px solid #8CF2AC;
+	margin-bottom: 10px;
+	color: white;
+	text-decoration: none;
 }
 
-#liLink:hover {
+.liLink:hover {
 	background-color: #8CF2AC;
 	cursor: pointer;
 }
@@ -184,7 +197,6 @@ img {
 hr.hrAbout {
 	border: none;
 	border-top: 2px dashed white;
-	/*border-style: dashed;*/
 }
 
 .aboutContact {
@@ -200,8 +212,7 @@ hr.hrAbout {
 
 
 
-/* ############# FEATURED WORK ############## */
-
+/* ############# FEATURED WORK HEADING ############## */
 
 h2 {
 	font-size: 32px;
@@ -211,34 +222,184 @@ h2 {
 	padding: 10px 40px;
 	background-color: white;
 	color: rgb(0, 16, 40);
-	/*opacity: 0.9;*/
 	width: 460px;
 	position: relative;
 	left: 80px;
-	top: 4px;
+	top: 24px;
 }
 
-.featuredTitle {
+.featuredHeading {
 	width: 702px;
-	height: 162px;
+	height: 102px;
 	margin: 0 auto;
-	margin-top: 70px;
-	padding-top: 40px;
-	background-image: url("https://www.transparenttextures.com/patterns/grid-me.png");*/
-	/*opacity: 0.5;*/
-	/*background-blend-mode: overlay;*/
+	margin-top: 110px;
+	margin-bottom: 60px;
+	background-image: url("https://www.transparenttextures.com/patterns/grid-me.png");
 }
 
 
 
+/* ############# FEATURED WORK BLOCK ############## */
+
+.featuredBlock {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	border: 1px solid white;
+	padding: 20px;
+	width: 800px;
+	height: 400px;
+	margin: 0 auto;
+	margin-bottom: 60px;
+}
 
 
+/* ############# FEATURED WORK BUTTONS ############## */
 
+.featuredButtons {
+	display: flex;
+	flex-direction: column;
+}
 
+.siteLink {
+	font-size: 20px;
+	height: 45px;
+	width: 150px;
+	padding-top: 25px;
+	border: 3px solid #E55757;
+	margin-bottom: 10px;
+	color: white;
+	text-decoration: none;
+}
 
+.siteLink:hover {
+	background-color: #E55757;
+	cursor: pointer;
+}
 
+.gitLink {
+	font-size: 20px;
+	height: 45px;
+	width: 150px;
+	padding-top: 25px;
+	/*border: 3px solid #8CF2AC;*/
+	border: 3px solid #85E59E;
+	margin-bottom: 10px;
+	color: white;
+	text-decoration: none;
+}
 
+.gitLink:hover {
+	background-color: #85E59E;
+	cursor: pointer;
+}
 
+.videoLink {
+	font-size: 20px;
+	height: 45px;
+	width: 150px;
+	padding-top: 25px;
+	border: 3px solid #FFE037;
+	margin-bottom: 10px;
+	color: white;
+	text-decoration: none;
+}
+
+.videoLink:hover {
+	background-color: #FFE037;
+	cursor: pointer;
+}
+
+.expandButton {
+	font-size: 20px;
+	height: 45px;
+	width: 150px;
+	padding-top: 25px;
+	border: 3px dashed white;
+	margin-bottom: 10px;
+	color: white;
+	text-decoration: none;
+	opacity: .3
+}
+
+.expandButton:hover {
+	cursor: ne-resize;
+}
+
+.comingSoon {
+	font-size: 12px;
+	opacity: .4;
+	margin-top: -8px;
+}
+
+/* ############# FEATURED WORK CONTENT ############## */
+
+.featuredContent{
+	width: 620px;
+	/*background-color: orange;*/
+}
+
+.featuredContent img{
+	height: 200px;
+	width: 310px;
+	border: none;
+}
+
+h3 {
+	font-size: 36px;
+	margin-top: -1px;
+	margin-bottom: -1px;
+	text-align: left;
+	/*background-color: blue;*/
+}
+
+hr.hrFeatured {
+	border: none;
+	border-top: 2px dashed white;
+}
+
+h6 {
+	font-size: 22px;
+	text-align: left;
+	margin-top: -1px;
+	margin-bottom: 15px;
+	/*background-color: yellow;*/
+}
+
+.featuredBody {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	height: 310px;
+	/*background-color: red;*/
+}
+
+.featuredPara {
+	font-size: 18px;
+	width: 280px;
+	height: 310px;
+	margin-top: -22px;
+	text-align: left;
+	/*background-color: green;*/
+}
+
+.feateredLeft {
+	/*background-color: red;*/
+	width: 310px;
+}
+
+.feateredLeft h6 {
+	font-size: 20px;
+	margin-top: 10px;
+	text-align: left;
+	/*border: 1px solid white;
+	width: 130px;*/
+}
+
+.feateredLeft p {
+	margin-top: -10px;
+	text-align: left;
+}
 
 
 
@@ -253,4 +414,8 @@ footer {
 .hrFooter {
 	border: none;
 	border-top: 2px dashed white;
+}
+
+h5 {
+	font-size: 26px;
 }
