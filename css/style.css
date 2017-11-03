@@ -13,9 +13,9 @@ body {
 
 
 	background: rgb(0, 16, 40);
-	background: -webkit-radial-gradient(rgb(0, 43, 65), rgb(0, 16, 40));
-	background: -moz-radial-gradient(rgb(0, 43, 65), rgb(0, 16, 40));
-	background: radial-gradient(rgb(0, 43, 65), rgb(0, 16, 40));
+	background: -webkit-radial-gradient(rgb(0, 43, 70), rgb(0, 16, 40));
+	background: -moz-radial-gradient(rgb(0, 43, 70), rgb(0, 16, 40));
+	background: radial-gradient(rgb(0, 43, 70), rgb(0, 16, 40));
 }
 
 
@@ -24,7 +24,7 @@ body {
 /* ############# HEADER ######################## */
 
 header {
-	margin-top: 15px;
+	margin-top: 10px;
 }
 
 h1 {
@@ -40,11 +40,11 @@ h4 {
 	color: white;
 	letter-spacing: 10px;
 	margin-top: 5px;
-	margin-bottom: 45px;
+	margin-bottom: 40px;
 }
 
 header hr {
-	margin-top: -15px;
+	margin-top: -20px;
 	width: 240px;
 }
 
@@ -197,6 +197,7 @@ img {
 hr.hrAbout {
 	border: none;
 	border-top: 2px dashed white;
+	margin-bottom: -5px;
 }
 
 .aboutContact {
@@ -205,8 +206,10 @@ hr.hrAbout {
 	justify-content: space-between;
 	padding-left: 30px;
 	padding-right: 30px;
-	font-size: 20px;
-	margin-top: -5px;
+	font-size: 24px;
+	/*margin-top: -5px;*/
+	margin-bottom: -10px;
+	font-weight: bold;
 }
 
 
