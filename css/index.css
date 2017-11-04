@@ -1,0 +1,308 @@
+
+/* ############# ABOUT BLOCK TOP ############## */
+
+.aboutBlock {
+	display: flex;
+	flex-direction: column;
+	border: 1px solid white;
+	padding: 20px;
+	width: 840px;
+	height: 400px;
+	margin: 0 auto;
+}
+
+.aboutTop {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+.portrait {
+	display: flex;
+	flex-direction: column;
+	text-align: left;
+}
+
+.portrait p {
+	font-size: 8px;
+	line-height: 2px;
+	margin-bottom: -2px;
+}
+
+.portrait img {
+	height: 140px;
+	width: 140px;
+	border: 10px solid white;
+}
+
+.aboutPara {
+	font-size: 28px;
+	text-align: left;
+	padding-left: 20px;
+	text-indent: 25px;
+	margin: 0 20px;
+	width: 600px;
+	position: relative;
+	top: -34px;
+	letter-spacing: 1px;
+	/*background-color: yellow;*/
+}
+
+.aboutLinks {
+	display: flex;
+	flex-direction: column;
+	width: 160px;
+	height: 300px;
+	/*background-color: blue;*/
+}
+
+.gaLink {
+	font-size: 20px;
+	height: 45px;
+	width: 150px;
+	padding-top: 25px;
+	border: 3px solid #8CF2AC;
+	margin-bottom: 10px;
+	color: white;
+	text-decoration: none;
+}
+
+.gaLink:hover {
+	background-color: #8CF2AC;
+	cursor: pointer;
+}
+
+.liLink {
+	font-size: 20px;
+	height: 45px;
+	width: 150px;
+	padding-top: 25px;
+	border: 3px solid #E55757;
+	margin-bottom: 10px;
+	color: white;
+	text-decoration: none;
+}
+
+.liLink:hover {
+	background-color: #E55757;
+	cursor: pointer;
+}
+
+
+/* ############# ABOUT BLOCK BOTTOM ############## */
+
+hr.hrAbout {
+	border: none;
+	border-top: 2px dashed white;
+	margin-bottom: -5px;
+}
+
+.aboutContact {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	padding-left: 30px;
+	padding-right: 30px;
+	font-size: 26px;
+	/*margin-top: -5px;*/
+	margin-bottom: -15px;
+	font-weight: bold;
+}
+
+
+
+
+/* ############# FEATURED WORK HEADING ############## */
+
+h2 {
+	font-size: 32px;
+	font-weight: 200;
+	color: white;
+	letter-spacing: 8px;
+	padding: 8px 46px;
+	/*padding: 10px 40px;*/
+	background-color: white;
+	color: rgb(0, 16, 40);
+	width: 460px;
+	position: relative;
+	/*left: 80px;*/
+	/*top: 48px;*/
+	left: 100px;
+	top: 50px;
+}
+
+.featuredHeading {
+	width: 751px;
+	/*width: 801px;*/
+	height: 152px;
+	margin: 0 auto;
+	margin-top: 80px;
+	margin-bottom: 60px;
+	background-image: url("https://www.transparenttextures.com/patterns/grid-me.png");
+}
+
+
+
+/* ############# FEATURED WORK BLOCK ############## */
+
+.featuredBlock {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	border: 1px solid white;
+	padding: 20px;
+	width: 840px;
+	height: 400px;
+	margin: 0 auto;
+	margin-bottom: 60px;
+}
+
+
+/* ############# FEATURED WORK BUTTONS ############## */
+
+.featuredButtons {
+	display: flex;
+	flex-direction: column;
+}
+
+.siteLink {
+	font-size: 20px;
+	height: 45px;
+	width: 150px;
+	padding-top: 25px;
+	border: 3px solid #85E59E;
+	margin-bottom: 10px;
+	color: white;
+	text-decoration: none;
+}
+
+.siteLink:hover {
+	background-color: #85E59E;
+	cursor: pointer;
+}
+
+.gitLink {
+	font-size: 20px;
+	height: 45px;
+	width: 150px;
+	padding-top: 25px;
+	/*border: 3px solid #8CF2AC;*/
+	border: 3px solid #E55757;
+	margin-bottom: 10px;
+	color: white;
+	text-decoration: none;
+}
+
+.gitLink:hover {
+	background-color: #E55757;
+	cursor: pointer;
+}
+
+/*
+.gitSub {
+	display: block;
+	margin-top: -1px;
+	font-size: 14px;
+}*/
+
+
+.videoLink {
+	font-size: 20px;
+	height: 45px;
+	width: 150px;
+	padding-top: 25px;
+	border: 3px solid #FFE037;
+	margin-bottom: 10px;
+	color: white;
+	text-decoration: none;
+}
+
+.videoLink:hover {
+	background-color: #FFE037;
+	cursor: pointer;
+}
+
+.expandButton {
+	font-size: 20px;
+	height: 45px;
+	width: 150px;
+	padding-top: 25px;
+	border: 3px dashed white;
+	margin-bottom: 10px;
+	color: white;
+	text-decoration: none;
+	opacity: .3
+}
+
+.expandButton:hover {
+	cursor: ne-resize;
+}
+
+.comingSoon {
+	font-size: 12px;
+	opacity: .4;
+	margin-top: -8px;
+}
+
+/* ############# FEATURED WORK CONTENT ############## */
+
+.featuredContent{
+	width: 660px;
+	/*background-color: orange;*/
+}
+
+.featuredContent img{
+	height: 200px;
+	width: 310px;
+	border: none;
+}
+
+.featuredContent h3 {
+	font-size: 38px;
+	margin-top: -8px;
+	margin-bottom: -1px;
+	text-align: left;
+	/*background-color: blue;*/
+}
+
+hr.hrFeatured {
+	border: none;
+	border-top: 2px dashed white;
+}
+
+.featuredContent h6 {
+	font-size: 24px;
+	text-align: left;
+	margin-top: -1px;
+	margin-bottom: 25px;
+	/*background-color: yellow;*/
+}
+
+.featuredBody {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	height: 310px;
+	/*background-color: red;*/
+}
+
+.featuredPara {
+	font-size: 20px;
+	width: 330px;
+	height: 310px;
+	margin-top: -25px;
+	text-align: left;
+	text-indent: 10px;
+	/*background-color: green;*/
+}
+
+.feateredLeft {
+	/*background-color: red;*/
+	width: 310px;
+}
+
+.feateredLeft p {
+	margin-top: 15px;
+	text-align: left;
+	font-size: 18px;
+}

@@ -1,0 +1,73 @@
+
+/* ############ BLOCK ############ */
+
+.blogBlock {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border: 1px solid white;
+  padding: 40px;
+  width: 800px;
+  margin: 0 auto;
+  margin-bottom: 60px;
+}
+
+
+/* ############ TITLE ############ */
+.blogTitle h3 {
+	font-size: 38px;
+	margin-top: -15px;
+	margin-bottom: -1px;
+	text-align: left;
+}
+
+.blogTitle h6 {
+	font-size: 24px;
+	text-align: left;
+	margin-top: -1px;
+	margin-bottom: 15px;
+}
+
+hr.hrBlog {
+	border: none;
+	border-top: 2px dashed white;
+}
+
+.blogSubDate {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+/* ############ IMAGE ############ */
+
+.blogImg {
+  margin-top: -25px;
+  height: 180px;
+	width: 280px;
+  float: right;
+  margin-top: 22px;
+  margin-left: 30px;
+}
+
+.blogImg:hover {
+  cursor: pointer;
+}
+
+/* ############ CONTENT ############ */
+
+.blogContent {
+  text-align: left;
+  margin-top: -10px;
+  margin-bottom: -15px;
+}
+
+.blogContent p {
+  font-size: 20px;
+  text-indent: 40px;
+}
+
+.blogBold {
+  font-weight: bolder;
+  color: #FFE037;
+}
