@@ -296,6 +296,10 @@ hr.hrFeatured {
 	/*background-color: green;*/
 }
 
+.featuredPara p {
+	margin-bottom: -10px;
+}
+
 .feateredLeft {
 	/*background-color: red;*/
 	width: 310px;
