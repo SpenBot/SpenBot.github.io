@@ -1,0 +1,152 @@
+
+
+/* ############# ABOUT BLOCK TOP ############## */
+
+.aboutBlock {
+	display: flex;
+	flex-direction: column;
+	border: 1px solid white;
+	padding: 20px;
+	width: 840px;
+	height: 400px;
+	margin: 0 auto;
+}
+
+.aboutTop {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+.portrait {
+	display: flex;
+	flex-direction: column;
+	text-align: left;
+}
+
+.portrait p {
+	font-size: 8px;
+	line-height: 2px;
+	margin-bottom: -2px;
+}
+
+.portrait img {
+	height: 140px;
+	width: 140px;
+	border: 10px solid white;
+}
+
+.aboutPara {
+	font-size: 28px;
+	text-align: left;
+	padding-left: 20px;
+	text-indent: 25px;
+	margin: 0 20px;
+	width: 600px;
+	position: relative;
+	top: -10px;
+	letter-spacing: 1px;
+	/*background-color: yellow;*/
+}
+
+/* ############# ABOUT LINKS ############## */
+
+
+.aboutLinks {
+	display: flex;
+	flex-direction: column;
+	width: 160px;
+	height: 300px;
+	/*background-color: blue;*/
+}
+
+.liLink {
+	font-size: 20px;
+	height: 45px;
+	width: 150px;
+	padding-top: 25px;
+	border: 3px solid #8CF2AC;
+	margin-bottom: 10px;
+	color: white;
+	text-decoration: none;
+}
+
+.liLink:hover {
+	background-color: #8CF2AC;
+	cursor: pointer;
+}
+
+
+.ghLink {
+	font-size: 20px;
+	height: 45px;
+	width: 150px;
+	padding-top: 25px;
+	border: 3px solid #E55757;
+	margin-bottom: 10px;
+	color: white;
+	text-decoration: none;
+}
+
+.ghLink:hover {
+	background-color: #E55757;
+	cursor: pointer;
+}
+
+.gaLink {
+	font-size: 20px;
+	height: 45px;
+	width: 150px;
+	padding-top: 25px;
+	border: 3px solid #FFE037;
+	margin-bottom: 10px;
+	color: white;
+	text-decoration: none;
+}
+
+.gaLink:hover {
+	background-color: #FFE037;
+	cursor: pointer;
+}
+
+/* ############# ABOUT BLOCK BOTTOM ############## */
+
+hr.hrAbout {
+	border: none;
+	border-top: 2px dashed white;
+	margin-bottom: -5px;
+}
+
+.aboutContact {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	padding-left: 30px;
+	padding-right: 30px;
+	font-size: 26px;
+	/*margin-top: -5px;*/
+	margin-bottom: -15px;
+	font-weight: bold;
+}
+
+.aboutEmail {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	width: 370px;
+}
+
+.aboutEmail img {
+	margin-top: 16px;
+}
+
+.aboutPhone {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	width: 200px;
+}
+
+.aboutPhone img {
+	margin-top: 14px;
+}

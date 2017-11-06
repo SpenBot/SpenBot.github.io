@@ -11,7 +11,6 @@ body {
 	flex-direction: column;
 	color: white;
 
-
 	background: rgb(0, 16, 40);
 	background: -webkit-radial-gradient(rgb(0, 43, 70), rgb(0, 16, 40));
 	background: -moz-radial-gradient(rgb(0, 43, 70), rgb(0, 16, 40));
@@ -95,17 +94,16 @@ main {
 	margin-top: 70px;
 	margin-bottom: 100px;
 	min-height: 1200px;
-	/*background-color: red;*/
 }
 
 
 
 
-/* ############# FOOTER ######### */
+/* ############# FOOTER ##################### */
 
 
 footer {
-	height: 160px;
+	height: 220px;
 }
 
 .hrFooter {
@@ -113,7 +111,57 @@ footer {
 	border-top: 2px dashed white;
 }
 
-footer h4 {
-	margin-top: 20px;
-	letter-spacing: 5px;
+.footerContent {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	font-size: 26px;
+	font-weight: bold;
+	padding-top: 10px;
+	padding-left: 20px;
+	padding-right: 60px;
+}
+
+
+.footerEmail {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	width: 390px;
+	height: 60px;
+}
+
+.footerEmail img {
+	margin-top: 16px;
+	margin-left: 25px;
+}
+
+.footerPhone {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	width: 230px;
+	height: 60px;
+}
+
+.footerPhone img {
+	margin-top: 14px;
+	margin-left: 25px;
+}
+
+.footerLinks {
+	margin-top: 25px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	text-align: right;
+}
+
+.footerLinks a {
+	color: white;
+	/*font-size: 16px;
+	text-decoration: none;
+	border: 1px solid white;
+	padding: 5px 20px;
+	width: 120px;*/
 }
