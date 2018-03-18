@@ -41,18 +41,45 @@
 /* ############# MORE WORK BLOCK ############## */
 
 .moreBlock {
-	/* display: flex;
-	flex-direction: row;
-	justify-content: space-between; */
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	align-items: center;
 
 	border: 1px solid white;
 	padding: 20px;
-	width: 300px;
+	width: 280px;
 	height: 180px;
 	margin: 0 auto;
 	margin-bottom: 60px;
 }
 
+.moreBlock img {
+	height: 150px;
+	width: 250px;
+}
+
+.moreBlock h3 {
+	font-size: 20px;
+	margin-top: -8px;
+	margin-bottom: 0;
+	text-align: left;
+}
+
+.hrMore {
+	border: none;
+	border-top: 2px dashed white;
+}
+
+.moreBlock:hover {
+	background-color: white;
+	color: rgb(0, 16, 40);
+	cursor: pointer;
+}
+
+.hrMore:hover {
+		border-top: 2px dashed rgb(0, 16, 40);
+}
 
 
 
@@ -69,7 +96,7 @@
 
 	margin: 0 auto;
 	width: 400px;
-	height: 80px;
+	height: 60px;
 
 	font-size: 28px;
 
@@ -79,4 +106,10 @@
 
 #evenMoreButton p {
 	margin: 0 auto;
+}
+
+#evenMoreButton:hover {
+	background-color: #FFE037;
+	cursor: pointer;
+	color: rgb(0, 16, 40);
 }
