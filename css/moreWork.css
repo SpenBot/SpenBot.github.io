@@ -1,0 +1,153 @@
+
+/* ############# MORE WORK BLOCK ############## */
+
+.moreWorkBlock {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	border: 1px solid white;
+	padding: 20px;
+	/* width: 840px;
+	height: 380px; */
+	width: 780px;
+	height: 260px;
+	margin: 0 auto;
+	margin-bottom: 40px;
+}
+
+
+/* ############# MORE WORK BUTTONS ############## */
+
+.moreWorkButtons {
+	display: flex;
+	flex-direction: column;
+}
+
+.siteLink {
+	font-size: 20px;
+	height: 45px;
+	width: 150px;
+	padding-top: 25px;
+	border: 3px solid #85E59E;
+	margin-bottom: 10px;
+	color: white;
+	text-decoration: none;
+}
+
+.siteLink:hover {
+	background-color: #85E59E;
+	cursor: pointer;
+}
+
+.gitLink {
+	font-size: 20px;
+	height: 45px;
+	width: 150px;
+	padding-top: 25px;
+	/*border: 3px solid #8CF2AC;*/
+	border: 3px solid #E55757;
+	margin-bottom: 10px;
+	color: white;
+	text-decoration: none;
+}
+
+.gitLink:hover {
+	background-color: #E55757;
+	cursor: pointer;
+}
+
+/*
+.gitSub {
+	display: block;
+	margin-top: -1px;
+	font-size: 14px;
+}*/
+
+
+/* .expandButton {
+	font-size: 20px;
+	height: 45px;
+	width: 150px;
+	padding-top: 25px;
+	border: 3px dashed white;
+	margin-bottom: 10px;
+	color: white;
+	text-decoration: none;
+	opacity: .3
+}
+
+.expandButton:hover {
+	cursor: ne-resize;
+}
+
+.comingSoon {
+	font-size: 12px;
+	opacity: .4;
+	margin-top: -8px;
+} */
+
+/* ############# MORE WORK CONTENT ############## */
+
+.moreWorkContent{
+	width: 600px;
+}
+
+.moreWorkContent img{
+	height: 200px;
+	width: 310px;
+	border: none;
+}
+
+.moreWorkContent h3 {
+	font-size: 38px;
+	margin-top: -8px;
+	margin-bottom: -1px;
+	text-align: left;
+	/*background-color: blue;*/
+}
+
+hr.hrMoreWork {
+	border: none;
+	border-top: 2px dashed white;
+}
+
+.moreWorkContent h6 {
+	font-size: 24px;
+	text-align: left;
+	margin-top: -1px;
+	margin-bottom: 25px;
+	/*background-color: yellow;*/
+}
+
+.moreWorkBody {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	height: 310px;
+	/*background-color: red;*/
+}
+
+.moreWorkPara {
+	font-size: 20px;
+	width: 260px;
+	height: 310px;
+	margin-top: -25px;
+	text-align: left;
+	text-indent: 10px;
+	/*background-color: green;*/
+}
+
+.moreWorkPara p {
+	margin-bottom: -10px;
+}
+
+.moreWorkLeft {
+	/*background-color: red;*/
+	width: 310px;
+}
+
+.moreWorkLeft p {
+	margin-top: 15px;
+	text-align: left;
+	font-size: 18px;
+}
