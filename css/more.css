@@ -64,9 +64,19 @@
 /* ############# EVEN MORE BUTTON ############## */
 
 #evenMoreButton {
-	border: 1px solid white;
-	font-size: 28px;
+	/* border: 1px solid white; */
+	border: 1px solid #FFE037;
+
 	margin: 0 auto;
-	width: 500px;
-	height: 100px;
+	width: 400px;
+	height: 80px;
+
+	font-size: 28px;
+
+	display: flex;
+	align-items: center;
+}
+
+#evenMoreButton p {
+	margin: 0 auto;
 }
