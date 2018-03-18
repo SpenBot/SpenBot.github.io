@@ -1,7 +1,17 @@
 
 /* ############# FEATURED WORK HEADING ############## */
 
-h2 {
+.featuredHeading {
+	width: 751px;
+	/*width: 801px;*/
+	height: 152px;
+	margin: 0 auto;
+	margin-top: 80px;
+	margin-bottom: 60px;
+	background-image: url("https://www.transparenttextures.com/patterns/grid-me.png");
+}
+
+.featuredHeading h2 {
 	font-size: 32px;
 	font-weight: 200;
 	color: white;
@@ -17,18 +27,6 @@ h2 {
 	left: 100px;
 	top: 50px;
 }
-
-.featuredHeading {
-	width: 751px;
-	/*width: 801px;*/
-	height: 152px;
-	margin: 0 auto;
-	margin-top: 80px;
-	margin-bottom: 60px;
-	background-image: url("https://www.transparenttextures.com/patterns/grid-me.png");
-}
-
-
 
 /* ############# FEATURED WORK BLOCK ############## */
 
