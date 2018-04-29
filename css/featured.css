@@ -107,6 +107,11 @@
 	cursor: pointer;
 }
 
+.videoTime {
+	letter-spacing: 3px;
+	margin-top: -5px;
+}
+
 .grayButton {
 	font-size: 20px;
 	height: 45px;
